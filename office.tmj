@@ -519,6 +519,55 @@
                  "y":582
                 }, 
                 {
+                 "height":251,
+                 "id":29,
+                 "name":"chatZoneMidAndLateCareer",
+                 "properties":[
+                        {
+                         "name":"chat",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"chatDescription",
+                         "type":"string",
+                         "value":"Mixer for Mid and Late Career participants"
+                        }, 
+                        {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"Mid and Late Career"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":405,
+                 "x":41,
+                 "y":709
+                }, 
+                {
+                 "height":350,
+                 "id":31,
+                 "name":"chatSpeakers",
+                 "properties":[
+                        {
+                         "name":"chatDescription",
+                         "type":"string",
+                         "value":"Miggle with the seakers!"
+                        }, 
+                        {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"Speaker Chat Room"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":228,
+                 "x":735,
+                 "y":98
+                }, 
+                {
                  "height":72.328125,
                  "id":26,
                  "name":"Students",
@@ -576,28 +625,6 @@
                  "y":716.3359375
                 }, 
                 {
-                 "height":251,
-                 "id":29,
-                 "name":"chatZoneMidAndLateCareer",
-                 "properties":[
-                        {
-                         "name":"chatDescription",
-                         "type":"string",
-                         "value":"Mixer for Mid and Late Career participants"
-                        }, 
-                        {
-                         "name":"chatName",
-                         "type":"string",
-                         "value":"Mid and Late Career"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":405,
-                 "x":41,
-                 "y":709
-                }, 
-                {
                  "height":112.328125,
                  "id":30,
                  "name":"Speaker Chat Room",
@@ -615,28 +642,6 @@
                  "width":239.046875,
                  "x":744.4765625,
                  "y":101.3359375
-                }, 
-                {
-                 "height":350,
-                 "id":31,
-                 "name":"Speaker Chat Room",
-                 "properties":[
-                        {
-                         "name":"chatDescription",
-                         "type":"string",
-                         "value":"Miggle with the seakers!"
-                        }, 
-                        {
-                         "name":"chatName",
-                         "type":"string",
-                         "value":"Speaker Chat Room"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":228,
-                 "x":735,
-                 "y":98
                 }, 
                 {
                  "height":197,
@@ -659,17 +664,6 @@
                  "width":510,
                  "x":672,
                  "y":767
-                }, 
-                {
-                 "height":0,
-                 "id":34,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":629,
-                 "y":1076
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -947,7 +941,7 @@
         {
          "columns":8,
          "firstgid":2956,
-         "image":".\/tilesets\/Smaller.png",
+         "image":"tilesets\/Smaller.png",
          "imageheight":71,
          "imagewidth":260,
          "margin":0,
